@@ -1,0 +1,8 @@
+      System.out.println("Поздравляю! Вы угадали число " + secretNumber + " за " + attempts + " попыток.");
+        } else if (guess < secretNumber) {
+            System.out.println("Загаданное число больше. Попробуйте ещё раз.");
+            playGame(secretNumber, attempts);
+        } else {
+            System.out.println("Загаданное число меньше. Попробуйте ещё раз.");
+            playGame(secretNumber, attempts);
+        }
